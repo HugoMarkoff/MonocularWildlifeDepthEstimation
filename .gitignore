@@ -1,0 +1,13 @@
+# Ignore all files
+*
+
+# Allow specific files
+!requirements.txt
+!LICENSE
+!LICENSE.*
+!monocular.py
+!.gitignore
+
+# Allow the TestImage directory and its contents
+!TestImage/
+!TestImage/*

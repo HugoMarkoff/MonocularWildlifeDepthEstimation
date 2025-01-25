@@ -1,0 +1,1 @@
+megadetector==5.0.21transformers==4.48.1
