@@ -47,10 +47,11 @@ pip install -r requirements.txt
 You can now run the example script! Be aware that loading and running the models may take some time.
 
 To test the script with your own images, you will need to:
-1. **Change the image path:** Replace the default image path with the path to your image.
-2. **Provide a known distance:** Specify a pixel (x, y) corresponding to a known distance in the image and the measured distance from the camera to that point.
+1. **Put image(s) into TestImage folder** The code looks for valid images (.jpg, .png and so on..) under the TestImage folder.
+2. **Provide a known distance possition:** There will be a window with the image(s) where you press where you know the distance. 
+3. **Provide a the known distance to the selected pixel in terminal (meters) :** Enter the distance in the terminal, use "." as seperator, like 5.12 (for 5 meters and 12 centimeters) and press enter,
+4. **Find results:** The image(s) should be saved into the results folder under the project, here you can see the original image, where the animal was found, depth image and results with estimated distances.
 
----
 
 ## What Does the Code Do?
 
